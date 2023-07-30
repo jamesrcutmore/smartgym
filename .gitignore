@@ -4,9 +4,10 @@ __pycache__
 core.Microsoft*
 core.mongo*
 core.python*
-env.py
+env.pys
 __pycache__/
 *.py[cod]
 node_modules/
 .github/
 cloudinary_python.txt
+.env
