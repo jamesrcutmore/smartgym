@@ -1,12 +1,18 @@
 from django.db import models
 
 
-# Create your models here.
+class Meta:
+    verbose_name_plural = 'catogories'
+
+
 class Category(models.Model):
     name = models.CharField(max_length=100)
 
     def __str__(self):
         return self.name
+
+    def get__friendly__name(self):
+        return self.friendly_name
 
 
 class Product(models.Model):
