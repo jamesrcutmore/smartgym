@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-jamesrcutmore-smartgym-07qqybfxuj7.ws-eu102.gitpod.io']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -43,6 +43,12 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
+    'bag',
+    'checkout',
+    'profiles',
+
+    # Other
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -57,6 +63,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'smartgym.urls'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -64,18 +72,25 @@ TEMPLATES = [
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
         ],
-
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',
+                'django.template.context_processors.request', # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
+                'bag.contexts.bag_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = (
     # Needed to login by username in Django admin, regardless of `allauth`
@@ -152,3 +167,12 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Stripe
+FREE_DELIVERY_THRESHOLD = 50
+STANDARD_DELIVERY_PERCENTAGE = 10
+STRIPE_CURRENCY = 'usd'
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+DEFAULT_FROM_EMAIL = 'smartgym@example.com'
