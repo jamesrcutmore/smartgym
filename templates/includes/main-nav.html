@@ -14,37 +14,37 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=nutrition_plan" id=""
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Nutrition Plan
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}" class="dropdown-item">3 Month Nutrtion Plan</a>
-                <a href="{% url 'products' %}" class="dropdown-item">6 Month Nutrition Plan</a>
-                <a href="{% url 'products' %}" class="dropdown-item">12 Month Nutrtion plan</a>
+            <div class="dropdown-menu border-0" aria-labelledby="">
+                <a href="{% url 'products' %}?category=nutrition_plans" class="dropdown-item">3 Month Nutrtion Plan</a>
+                <a href="{% url 'products' %}?category=nutrition_plan" class="dropdown-item">6 Month Nutrition Plan</a>
+                <a href="{% url 'products' %}?category=nutrition_plan" class="dropdown-item">12 Month Nutrtion plan</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=gym_plans" id=""
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Fitness Plan
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}" class="dropdown-item">3 Month Fitness Plan</a>
-                <a href="{% url 'products' %}" class="dropdown-item">6 Month Fitness Plan</a>
-                <a href="{% url 'products' %}" class="dropdown-item">12 Month Fitness Plan</a>
+            <div class="dropdown-menu border-0" aria-labelledby="">
+                <a href="{% url 'products' %}?category=gym_plans" class="dropdown-item">3 Month Fitness Plan</a>
+                <a href="{% url 'products' %}?category=gym_plans" class="dropdown-item">6 Month Fitness Plan</a>
+                <a href="{% url 'products' %}?category=gym_plans" class="dropdown-item">12 Month Fitness Plan</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown"
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'products' %}?category=merch" id="specials-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
               Merchandise
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}" class="dropdown-item">Smart Gym Hoodie</a>
-                <a href="{% url 'products' %}" class="dropdown-item">Smart Gym T-Shirt</a>
+                <a href="{% url 'products' %}?category=merch" class="dropdown-item">Smart Gym Hoodie</a>
+                <a href="{% url 'products' %}?category=merch" class="dropdown-item">Smart Gym T-Shirt</a>
             </div>
         </li>
     </ul>
