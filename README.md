@@ -25,7 +25,7 @@ A live website can be found [here](https://8000-jamesrcutmore-smartgym-07qqybfxu
   * [Acknowledgements](#acknowledgements)
 
 # **About** 
--  Fruitbowl is a place for smoothies recipes.
+-  Smartgym is a place people wanting to get in shape ,physicaly and nutritionaly.
 
 -  Fruitbowl has full C.R.U.D functionality.
 
@@ -343,7 +343,7 @@ W3C CSS Validation Service has been used to test the CSS codes.
 + Tested each page individually on desktop and hovered over each button to make sure that Hover over is applied .
 + Tested each page individually on mobile and made sure hover over isn't applied.
 ### Home Button
-+ Home buttton tested and working correctley.
++ Smartgym  buttton tested and working correctley.
 ### Recipe button
 + Recipe button tested and worked as expected. 
 ### Login Button
@@ -370,7 +370,7 @@ W3C CSS Validation Service has been used to test the CSS codes.
 
 | Feature | Expected Outcome | Testing Performed |  Actual Result | Outcome |
 | --- | --- | --- | --- | --- |
-| The Fruitbowl title | Link directs the user back to the home page | Clicked title |  page reloads | Pass |
+| The Smartgym title | Link directs the user back to the home page | Clicked title |  page reloads | Pass |
 |  Recipe nav link | Clicked on button | Takes you to the recipes | Pass |
 |Login button  | Clicked on  button | Login opens | Pass |
 |Sign up button |  | Clicked button | sign up form opens | Pass |
