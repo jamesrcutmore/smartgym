@@ -1,6 +1,6 @@
 #                                        **CI-MS4-Smartgym** - Code Institute Milestone Project 4, Full Stack Module
 
-![Am I Responsive image of quiz game](assets/images/Screenshot-smoothie.jpg)
+![Am I Responsive image of quiz game](media/iam-responsive.jpg)
 #                                      
 A live website can be found [here](https://8000-jamesrcutmore-smartgym-07qqybfxuj7.ws-eu104.gitpod.io)
 
@@ -24,99 +24,46 @@ A live website can be found [here](https://8000-jamesrcutmore-smartgym-07qqybfxu
   * [Media](#media)
   * [Acknowledgements](#acknowledgements)
 
-# **About** 
--  Smartgym is a place people wanting to get in shape ,physicaly and nutritionaly.
+---
+# User Experience
+## User Stories
 
--  Fruitbowl has full C.R.U.D functionality.
+### As an unregistered, I want to :
 
--  It is a platform for smoothies lovers to explore and share smoothies recipes with one another.
++ to be able to browse through all products available.
++ have the ability to use the search function.
++ have the ability browse through the gym and nutrition plans available.
++ have generic questions answered without having to contact the store owner/admin.
++ be able to view my bag and any items I currently have awaiting payment in my bag.
++ be able to add, edit quantity and remove items from my bag.
++ be able to purchase from the site without having to register for an account.
++ have the ability to register to the site if I choose to.
 
--  The users also have the the  option of holding an account, there they can add, edit and delete the their own recipes.
+### As a registered user, I want to:
 
--  The user will be able to log in to there own recipes ,delete and edit,
++ have the ability to log in to the site with  my details.
++ have a record of any purchases that I have made in the past and view them in detail.
++ be able to update my shipping information.
++ be able to update my shipping information from the checkout page. 
++ be able to view the class videos offered.
 
--  Only the user can log into there own login.
+### As the site administrator, I want to:
 
-# **User Experience**
-As a general user:
++ be able to log in to an admin panel.
++ be able to add, update or remove products, gym , nutrition plans and merchandise without vistiting the admin panel.
++ receive email notifications when a user submits through the contact page.
 
-- I want to be able to see recipes without having to register an account.
 
-- I want to be able to search recipe with certain ingredients.
-
-- I want to be able to share my recipe with other people.
-
-- I want to have an account so I can come back, add, edit or delete my recipe.
 
 ### **Project Goals**
 
-- The project goal is to provide a platform for users who love smoothies to explore new recipes and also add more recipes 
-  with C.R.U.D functionality. 
-  These can be shared  with other users. As more and more users starting using the service, the website become a free resource.
+- The project goals are to create a website that people can browse through gym and fitness plans and buy branded smartgym merchandise.
 
 ### **Target Audience**
 
-- The target audience are anyone who interested in healthy lifestyle and diet, who enjoys fruit and veg, or just simply 
-  exploring new tastes and experiences.
+- The target audience are anyone who interested in healthy lifestyle and diet.
 
 
-# **User Stories**
-
- **General User Goals**
- - I want to be able to see recipes without having to register an account.
-
-- I want to be able to share my recipe with other people.
-
-- I want to have an account so I can come back, add, edit or delete my recipe.
-
-**_First Time User Goals_**
-
-As a first time user:
-
-- I want to know what the website is about.
-
-- I want to explore around to get to know the place.
-
-- I want to have a little taste about how the recipe looks like, is it something I am looking for.
-
-- I want to know if there is an option to register and hold an account, so I can come back anytime and add recipe if I like.
-- As a First Time Visitor, I want to know about the developer and their social media links.
-
-**_Returning User Goals_**
-
-As a returning user:
-
-- I want to be able to log into my accout.
-
-- I want to share my own recipe.
-
-- I want to add recipe to pre-determined categories.
-
-- I want to have access to the recipe I uploaded.
-
-- I want to be able to edit or delete my own recipe anytime if I want to.
-
-- I want to be able to log into my accout.
-
-- I want to share my own recipe.
-
-- I want to add recipe to pre-determined categories.
-
-- I want to have access to the recipe I uploaded.
-
-- I want to be able to edit or delete my own recipe anytime if I want to.
-
-**_Site Owner/Admin Goals_**
-
-As the site owner/admin:
-
-- I want to be able to add new categories to the site.
-
-- I want the new category to be added and displayed as a certain way to go with the flow of the entire site.
-
-- I want to be able to edit the pre-existing categories.
-
-- I want to be able to delete any categories.
 
  
 # **Design**
@@ -243,96 +190,37 @@ A registered user will be able to upload their own recipes to the site. All acce
 + To have added more content in general.
 ---
 
-# **Languages Used**
-- python
-- Javascript
-- H.T.M.L
-- C.S.S
-- Heruko
-- Elephant SQL
-- Django
+# Technologies Used
+## Languages
++ [HTML5](https://en.wikipedia.org/wiki/HTML5)
++ [CSS3](https://en.wikipedia.org/wiki/CSS)
++ [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
++ [Python3](https://www.python.org/)
 
-# **Technologies Used**
-[Local strorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
- - Local storage was used to save score
+## Frameworks and Libraries
++ [Django](https://www.djangoproject.com/)
++ [Pip3](https://pip.pypa.io/en/stable/)
++ [jQuery](https://jquery.com/)
++ [FontAwesome](https://fontawesome.com/)
++ [Google Fonts](https://fonts.google.com/)
++ [Bootstrap](https://getbootstrap.com/)
 
-[Python](https://www.python.org/)
-- Python language
+## All Others
++ [Heroku](https://www.heroku.com/) used to deploy live site.
++ [Stripe](https://stripe.com/en-ie) used for the payments system.
++ [GitHub](https://github.com/) used to host repository.
++ [GitPod](https://www.gitpod.io/) used to develop project and organise version control.
++ [Canva](https://www.canva.com/) used for the inital design. 
++ [Balsamiq](https://balsamiq.com/) used to create wireframes.
++ [RandomKeygen](https://randomkeygen.com/) used to create a strong password for required  `<SECRET_KEY>`.
++ [Transfonter](https://transfonter.org/) used to convert font from .tff to .woff and .woff2.
++ [Lighthouse](https://developers.google.com/web/tools/lighthouse) for performance review.
++ [Responsinator](https://www.responsinator.com/) used to check site was responsive on different screen sizes.
++ [Am I Responsive](http://ami.responsivedesign.is/) used to generate README intro image.
++ [favicon.io](https://favicon.io/) used to create a site favicon.
++ [Elephant SQL](https://www.elephantsql.com/) used for database.
+---
 
-[Flask](https://flask.palletsprojects.com/en/2.3.x//)
-
-- A Python  Framework.
-
-[MongoDB](https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core-high-int_prosp-brand_gic-null_emea-gb_ps-all_desktop_eng_lead&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=19609110867&adgroup=142438572621&cq_cmp=19609110867&gad=1&gclid=CjwKCAjw4ZWkBhA4EiwAVJXwqb3AsBn4-AjTbV1jinlrP7DRRheiQEQ5ZuRGdLTKVCWrG9sm3jrR0hoCulUQAvD_BwE)
-
-- MongoDB is a database website.
-
- [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.)
-
-- The language used to give the site its main structure and all necessary features.
-
-[CSS3](https://en.wikipedia.org/wiki/CSS)
-
-- The language used to give the application its visual effects including the font, color and layout etc.
-
- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-- The language used to implement the site's interactive features, allow the users to be interactive and make actions 
-  during their visit.
-
-  ---
-  ---
-
-
- # **Frameworks, Libraries & Programs Used**
-
-[Flask](https://flask.palletsprojects.com/en/2.3.x//)
-
-A python framwork.
-
-[VScode](https://code.visualstudio.com/)
-
-Visual Studio Code has been used as a local code editor for write and manage all codes and files.
-
-[Github](https://github.com/)
-
-Github is used to create, store and maintain all codes in a repository.
-
-Github is also used as the site hosting service for the final website to be published on.
-
-[Git Version control](https://git-scm.com/)
-
- Git 2.31.1 for Mac is used for commit and push codes to Github.
-
-[Google Fonts](https://fonts.google.com/)
-
-The font used on this quiz were chosen from Google fonts.
-
-[coolors](https://coolors.co/)
-
-Insperation was gained from coolors pallete.
-
-[Balsamiq](https://balsamiq.com/)
-
- The wireframes were created using Balsamiq.
-
-[Google DevTools](https://developer.chrome.com/docs/devtools/)
-
- Google DevTools was extensively used throughout the project for various styling, testing and debugging purposes.
-
-[Am I Responsive](http://ami.responsivedesign.is/)
-
-Am I responsive has been used to test the responsiveness of the site and also to create the mock-up image presented at the start of this document.
-
-[W3C Markup Validation service](https://validator.w3.org/)
-
- W3C Markup Validation Service has been used to test the HTML codes.
-
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-
-W3C CSS Validation Service has been used to test the CSS codes.
-
-   ---
    
 
 # **Testing**
@@ -345,21 +233,25 @@ W3C CSS Validation Service has been used to test the CSS codes.
 ### Home Button
 + Smartgym  buttton tested and working correctley.
 ### Recipe button
-+ Recipe button tested and worked as expected. 
-### Login Button
-+ Login button tested and works correctly 
-### Sign up Button
-+ Sign up button works as exspected. 
-### Sign up form
-+ Sign up form performs as exspected. 
-### Register clickable link Button
-+ Register button/link works as exspected.
-### Add Recipe
-+ Add recipe works and adds as exspected. 
-### Fruitbowl link Navigation bar
-+ Fruitbowl link on nav bar takes you back to home page as exspected.
-### Home link
-+ Takes you back to home page when on other pages, works as exspected. 
++ Purchase now button tested and worked as expected. 
+### All products Button
++ Login button also price ,rating and catogory tested and works correctly 
+### Nutrition plan Button
++ nutrition plan also all options inside, button works as exspected. 
+### Gym plan button
++ Gym plan and all inside performs as exspected. 
+### Merchandise Button
++ Mrechandise button and all inside works correcley.
+### Search our site option
++ search our site option works correcley. 
+### My account button
++ My account button with login and register works correcley.
+### Bag button
++ bag button with update remove and subtotal works correcley. 
+### Checkout button
++ check button works correcley. 
+### Complete order button
++ complete order button  works correcley. 
  
 ### Social media links 
 + All social media links work as exspected. 
@@ -443,7 +335,7 @@ W3C CSS Validation Service has been used to test the CSS codes.
 
 I deployed this project to heroku using the following steps:
 
-#### **Create Flask Application**
+#### **Deployment**
 
 - Log into Heruko
 - Under dashboard, Select "Create New App"
