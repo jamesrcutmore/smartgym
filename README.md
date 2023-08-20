@@ -104,10 +104,10 @@ A live website can be found [here](https://8000-jamesrcutmore-smartgym-07qqybfxu
    
  # **Wireframe views**
 
-![Desktop wireframe](assets/images/smoothie-desktophome.jpg)
-![Desktop wireframe](assets/images/smoothie-desktoprecipe.jpg)
-![Desktop wireframe](assets/images/smoothie-desktoplogin.jpg)
-![Desktop wireframe](assets/images/smoothie-desktopsignin.jpg)
+![Desktop wireframe](media/homescreen-screenshot.jpg)
+![Desktop wireframe](media/screenshot-products-dtop.jpg)
+![Desktop wireframe](media/screenshot-nutrtion-dtop.jpg)
+![Desktop wireframe](media/screenshot-fitness-dtop.jpg)
 
 ---
 
