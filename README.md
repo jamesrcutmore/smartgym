@@ -100,33 +100,54 @@ A live website can be found [here](https://8000-jamesrcutmore-smartgym-07qqybfxu
 
 - The site is easy to navigate functional and responsive
 
-![sitemap](assets/images/smoothie-sitemap.jpg)
+![sitemap](media/smartgym-sitemap.jpg)
    
  # **Wireframe views**
 
-![Desktop wireframe](media/homescreen-screenshot.jpg)
+# **Homescreen**
+![Desktop wireframe](media/homescreen-screenshot-dtop.jpg)
+-
+# **products**
 ![Desktop wireframe](media/screenshot-products-dtop.jpg)
-![Desktop wireframe](media/screenshot-nutrtion-dtop.jpg)
-![Desktop wireframe](media/screenshot-fitness-dtop.jpg)
+-
+# **nutrition**
+![Desktop wireframe](media/screenshot-nutrition-dtop.jpg)
+# **Fitness**
+![Desktop wireframe](media/screenshot-fit-dtop.jpg)
+# **Merchandise**
+![Desktop wireframe](media/screenshot-merchandise-dtop.jpg)
+# **Bag**
+![Desktop wireframe](media/screenshot-bag-dtop.jpg)
+# **secure-checkout**
+![Desktop wireframe](media/screenshot-secure-checkout-dtop.jpg)
+# **My profile**
+![Desktop wireframe](media/screenshot-myprofile-dtop.jpg)
 
 ---
 
 # **Wireframe Tablet view**
 
-![Tablet wireframe](assets/images/smoothie-tablethome.jpg)
-![Tablet wireframe](assets/images/smoothie-tabletrecipe.jpg)
-![Tablet wireframe](assets/images/smoothie-tabletlogin.jpg)
-![Tablet wireframe](assets/images/smoothie-tabletsignup.jpg)
+# **Homescreen**
+![Tablet wireframe](media/homescreen-screenshot-tablet.jpg)
+![Tablet wireframe](media/screenshot-products-tablet.jpg)
+![Tablet wireframe](media/screenshot-nutrtion-tablet.jpg)
+![Tablet wireframe](media/screenshot-fitness-tablet.jpg)
+![Tablet wireframe](media/screenshot-bag-tablet.jpg)
+![Tablet wireframe](media/screenshot-secure-checkout-tablet.jpg)
+![Tablet wireframe](media/screenshot-my-proflie-tablet.jpg)
 
 ---
 
 # **Wireframe Mobile view**
 
 
-![mobile wireframe](assets/images/smoothie-mobilehome.jpg)
-![mobile wireframe](assets/images/smoothie-mobilerecipe.jpg)
-![mobile wireframe](assets/images/smoothie-mobilelogin.jpg)
-![mobile wireframe](assets/images/smoothie-mobilesignup.jpg)
+![mobile wireframe](media/.jpg)
+![mobile wireframe](media/.jpg)
+![mobile wireframe](media/.jpg)
+![mobile wireframe](media/.jpg)
+![mobile wireframe](media/.jpg)
+![mobile wireframe](media/.jpg)
+![mobile wireframe](media/.jpg)
 ---
 ---
 
@@ -141,23 +162,23 @@ A live website can be found [here](https://8000-jamesrcutmore-smartgym-07qqybfxu
 
 - You can login and edit and also add new recipes.
 
-- You can register from the login page or go straight to sign up.
+- You can register from the login page.
 
 - social media links on footer.
 
 
-**_Recipes avaliable to all users_**
+**_Products avaliable to all users_**
 
-All recipes are avaliable to all users, so that all users will get to taste what the website is all about, and what they can experience, then decide if they would like to explore more functionalities of the website.
+All products are avaliable to all users, so that all users will get to exsperience what the website is all about, and what they can experience, then decide if they would like to explore more functionalities of the website.
 
-**_Users can search recipes based on either key words or ingredients_**
+**_Users can search products based on  key words.**
 
-For smoothies, most people may not familiar with a specific name. The main ingredient or the main liquid is what people look at when it comes to searching. This feature will meet this particular user need.
+For products and merchandise, most people may not familiar with a specific name. or want to go to a specific product.This is what people look at when it comes to searching. This feature will meet this particular user need.
 
 
-**_Users can view full recipe_**
+**_Users can browse each menu_**
 
-Users can access the full recipe page and view the ingredients and method, smoothie category and the username of the recipe creator.
+Users can access the all products page and view everything, by price ,catogory or rating.
 
 **_Users account management_**
 
@@ -167,7 +188,7 @@ Users can access the full recipe page and view the ingredients and method, smoot
 
 - **LogOut** Once the user finished using the site, they have a option of logging out the website.
 
-- **Dashboard** for users to add there recipes.
+- **Profile** users can have a profile.
 
 **_Users Recipes management_**
 
@@ -183,10 +204,10 @@ A registered user will be able to upload their own recipes to the site. All acce
 
 
 # **Features Left to Implement**
-+ To have more individual recipes catogories.
++ To have more choice of gym and nutrtion plans and a better description.
 + To have a better colour scheme.
-+ To be able to search individual ingriedients.
-+ Calorie count would have been a great feature.
++ To have more products in merchandise with better description..
++ contact us.
 + To have added more content in general.
 ---
 
@@ -232,8 +253,6 @@ A registered user will be able to upload their own recipes to the site. All acce
 + Tested each page individually on mobile and made sure hover over isn't applied.
 ### Home Button
 + Smartgym  buttton tested and working correctley.
-### Recipe button
-+ Purchase now button tested and worked as expected. 
 ### All products Button
 + Login button also price ,rating and catogory tested and works correctly 
 ### Nutrition plan Button
@@ -245,6 +264,8 @@ A registered user will be able to upload their own recipes to the site. All acce
 ### Search our site option
 + search our site option works correcley. 
 ### My account button
++ My account button with login and register works correcley.
+### My profile button
 + My account button with login and register works correcley.
 ### Bag button
 + bag button with update remove and subtotal works correcley. 
@@ -262,19 +283,18 @@ A registered user will be able to upload their own recipes to the site. All acce
 
 | Feature | Expected Outcome | Testing Performed |  Actual Result | Outcome |
 | --- | --- | --- | --- | --- |
-| The Smartgym title | Link directs the user back to the home page | Clicked title |  page reloads | Pass |
-|  Recipe nav link | Clicked on button | Takes you to the recipes | Pass |
+|The Smartgym title | Link directs the user back to the home page | Clicked title |  page reloads | Pass |
+|All products | Clicked on button | Takes you to the recipes | Pass |
 |Login button  | Clicked on  button | Login opens | Pass |
 |Sign up button |  | Clicked button | sign up form opens | Pass |
 |Register button | Takes you to sign up/ register form | Clicked on button | Form opens | Pass |
-|Edit Recipe | edit form opens | works correctley | Pass |
-|Home button |clicked on button | Clicked on button | redirects to home from other pages | Pass |
-| Sign up (submit button) | clicked button |works correctley  | Pass |
+|Sign up (submit button) | clicked button |works correctley  | Pass |
 |Facebook link in footer  | Clicked on button | Takes you to face book| Pass |
 |Twitter link in footer  | Clicked on button | Takes you to Twitter| Pass |
 |Instagram link in footer  | Clicked on button | Takes you to Instagram| Pass |
-| All buttons - hover effect | All buttons have hovered over with movement. | Hover over each button on the page |button movenment correctly performing  when hovered over | Pass |
+|All buttons - hover effect | All buttons have hovered over with movement. | Hover over each button on the page |button movenment correctly performing  when hovered over | Pass |
 |  Cursor pointer| cursor displayed when moved over buttons | mouse positioned over each button to check the cursor changed  | cursor changed when hoverd | Pass |
+|Stripe payment |all button and features |works correctley | Pass |
 
 ---
 # Automatic testing
