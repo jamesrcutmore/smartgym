@@ -129,11 +129,17 @@ A live website can be found [here](https://8000-jamesrcutmore-smartgym-07qqybfxu
 
 # **Homescreen**
 ![Tablet wireframe](media/homescreen-screenshot-tablet.jpg)
+# **Products**
 ![Tablet wireframe](media/screenshot-products-tablet.jpg)
-![Tablet wireframe](media/screenshot-nutrtion-tablet.jpg)
+# **nutrition**
+![Tablet wireframe](media/screenshot-nutrition-tablet.jpg)
+# **Fitness**
 ![Tablet wireframe](media/screenshot-fitness-tablet.jpg)
+# **Bag**
 ![Tablet wireframe](media/screenshot-bag-tablet.jpg)
+# **secure-checkout**
 ![Tablet wireframe](media/screenshot-secure-checkout-tablet.jpg)
+# **Profile**
 ![Tablet wireframe](media/screenshot-my-proflie-tablet.jpg)
 
 ---
@@ -189,18 +195,6 @@ Users can access the all products page and view everything, by price ,catogory o
 - **LogOut** Once the user finished using the site, they have a option of logging out the website.
 
 - **Profile** users can have a profile.
-
-**_Users Recipes management_**
-
-A registered user will be able to upload their own recipes to the site. All access is shown on my recipes page.
-
-- rob_cutmore@hotmail.com- password- Hutton.. can be used to edit the kiwi smoothie after the link fo kiwi smoothie is clicked. other smoothie links are for other users, and only they can edit.
-
-- Upload: users will be asked to fill up a form to upload a recipe. The form is validated. It means that the user cannot leave any inputs blank and white spaces.( Ingriedients and method are comm seperated )
-
-- Edit: the user can edit their own recipes on my recipes page by hover over the recipe image and click on edit button. They will be shown the form their filled out when they created the recipe, they can make changes and save.( Ingriedients and method are comm seperated ) .
-
-- Delete: the user can delete their own recipes by clicking on the delete button when hovering over the recipe image. A confirmation message modal will pop up to confirm deletion.
 
 
 # **Features Left to Implement**
@@ -309,8 +303,6 @@ A registered user will be able to upload their own recipes to the site. All acce
  #  Links to above mentioned are in languages used.
 
 # Known bugs
-
-![Known bugs](assets/images/known-bugs.jpg)
 
  + Initially when you where logged in , it would stay show as logged in , in the nav bar.
 ---
