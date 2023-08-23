@@ -4,13 +4,14 @@ from django.contrib import messages
 from django.conf import settings
 from .forms import OrderForm
 from products.models import Product
-from .models import OrderLineItem,Order
+from .models import OrderLineItem, Order
 
 from bag.contexts import bag_contents
 
 import stripe
 
 import json
+
 
 @require_POST
 def cache_checkout_data(request):
@@ -89,7 +90,8 @@ def checkout(request):
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            messages.error(request, "There's nothing in your bag at the moment")
+            messages.error(
+                request, "There's nothing in your bag at the moment")
             return redirect(reverse('products'))
 
         current_bag = bag_contents(request)
@@ -101,7 +103,7 @@ def checkout(request):
             currency=settings.STRIPE_CURRENCY,
         )
 
-        order_form = OrderForm() 
+        order_form = OrderForm()
 
     if not stripe_public_key:
         messages.warning(request, 'Stripe public key is missing. \
