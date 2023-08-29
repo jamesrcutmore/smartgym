@@ -29,7 +29,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smartgym1.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['smartgym1-f1d10f71d6fc.herokuapp.com', 'localhost']
 
 
 CSRF_TRUSTED_ORIGINS = [
