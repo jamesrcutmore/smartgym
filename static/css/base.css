@@ -10,6 +10,19 @@ body {
     font-family: 'Lato';
 }
 
+/* #topnav {
+    background-color: black !important;
+    color: white !important;
+}
+
+#topnav a {
+    color: white !important;
+}
+*/
+#topnav h2 {
+    color: yellow !important;
+} 
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -63,7 +76,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #080404 !important;
 }
 
 .border-black {
