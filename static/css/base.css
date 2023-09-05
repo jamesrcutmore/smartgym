@@ -20,7 +20,7 @@ body {
 }
 */
 #topnav h2 {
-    color: yellow !important;
+    color: rgb(248, 248, 245) !important;
 } 
 
 /* from Bulma */
@@ -48,12 +48,12 @@ body {
 
 .btn-black {
     background: rgb(92, 1, 1);
-    color: rgba(255, 255, 255, 0.955);
+    color: rgba(47, 3, 3, 0.955);
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important;
+    color: rgb(248, 243, 243) !important;
     /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
@@ -61,7 +61,7 @@ body {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: rgb(238, 235, 235);
     color: white !important;
 }
 
@@ -292,6 +292,66 @@ input[name='q']::placeholder {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+#footer {
+    color: #f0eef2;
+}
+
+#footer a {
+    color: rgb(249, 247, 252);
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: none;
+
+}
+
+#footer p {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.text-center p-3 {
+    align-items: center;
+}
+
+#fa-brands fa-square-facebook {
+    margin: 2px;
+    margin-bottom: 6px;
+    padding: 2px;
+    text-align: center;
+}
+
+#fa-brands fa-instagram{
+    margin: 2px;
+    margin-bottom: 6px;
+    padding: 2px;
+    text-align: center;
+}
+
+
+#fa-brands fa-square-x-twitter {
+    margin: 2px;
+    margin-bottom: 6px;
+    padding: 2px;
+    text-align: center;
+}
+
+#text-center p-3 {
+    text-align: center;
+}
+
 
 
 /* -------------------------------- Media Queries */
