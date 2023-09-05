@@ -2,7 +2,7 @@
 
 ![Am I Responsive image of quiz game](media/iam-responsive.jpg)
 #                                      
-A live website can be found [here](https://8000-jamesrcutmore-smartgym-07qqybfxuj7.ws-eu104.gitpod.io)
+A live website can be found [here](https://smartgym1-f1d10f71d6fc.herokuapp.com/)
 
 ## **Table of Contents**
 
