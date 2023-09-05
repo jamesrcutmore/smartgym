@@ -313,29 +313,29 @@ input[name='q']::placeholder {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
 }
 
-.footer p {
-    font-size: 25px;
+#footer p {
+    font-size: 30px;
     text-align: center;
 }
 
-.text-center p-3 {
+#text-center p-3 {
     align-items: center;
 }
 
 #fa-brands fa-square-facebook {
     margin: 2px;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     padding: 2px;
     text-align: center;
 }
 
 #fa-brands fa-instagram{
     margin: 2px;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     padding: 2px;
     text-align: center;
 }
@@ -343,7 +343,7 @@ input[name='q']::placeholder {
 
 #fa-brands fa-square-x-twitter {
     margin: 2px;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     padding: 2px;
     text-align: center;
 }
