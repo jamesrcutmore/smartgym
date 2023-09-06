@@ -5,5 +5,5 @@ from .models import Review
 class ReviewForm(forms.ModelForm):
 
     class Meta:
-        mode = Review
+        model = Review
         fields = ['user', 'rating', 'comment']
