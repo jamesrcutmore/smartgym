@@ -14,6 +14,7 @@ A live website can be found [here](https://smartgym1-f1d10f71d6fc.herokuapp.com/
   * [Design](#design)
   * [Wireframe](#wireframe-views)
   * [Features](#features)
+  * [Passwords and secret keys](#passwords&secretkeys)
   * [Existing Features](#existing-features)
   * [Features Left to Implement](#features-left-to-implement)
   * [Technologies-Used](#technologies-used)
@@ -171,6 +172,27 @@ A live website can be found [here](https://smartgym1-f1d10f71d6fc.herokuapp.com/
 - You can register from the login page.
 
 - social media links on footer.
+--- 
+# **Passwords and secret keys**
+
+# *passwords*
+- To log in as admin django..The name and password are  username - admin3  and  password - 123456
+
+# *secret keys*
+
+- Stripe public key.
+ pk_test_51NXoIzFaP2UHnBHNQnB0yAOCFgXvsBTVuOVLdAbSBWUIt8I0ovbWxonKopPVHABMCCh12T6gFiFggd90ziVQwm55007Fk1JL38
+
+- Stripe secret key.  
+ sk_test_51NXoIzFaP2UHnBHNYlff8FznqNTKpdgPyD9D0Wku4HEbSZoV1WmR9hEV3ighT1BIfAtINtFDz6aYAnAHlQFQKCSJ00B33SswF0
+
+- Stripe web hook secret.
+  whsec_Pp4pxfvuV0KoEveYrG4sfI2ddfS4LW0N
+
+- Database url.
+  postgres://pcczfpfz:CG7nceuyMHvyp6_YUzDoWJlSTaL6ARv8@trumpet.db.elephantsql.com/pcczfpfz
+
+
 
 
 **_Products avaliable to all users_**
