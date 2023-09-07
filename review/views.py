@@ -8,6 +8,7 @@ from products.models import Product
 from django.shortcuts import render, redirect
 from django.urls import reverse
 
+
 def rate(request, id):
     product = Product.objects.get(id=id)
     form = ReviewForm(request.POST or None)
@@ -25,7 +26,6 @@ def rate(request, id):
     }
     
     return render(request, 'review/rate.html', context)
-
 
 
 def success(request):
