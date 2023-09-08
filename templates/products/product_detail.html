@@ -108,6 +108,18 @@
                         </div>
                     </form>
                 </div>
+                <!-- Here Goes Reviews -->
+                <div class="reviews_container">
+                    {% if reviews %}
+                        {% for review in reviews %}
+                        <div class="review_item">
+                            <h4>{{review.username}} on {{review.review_date}}</h4>
+                            <p>I give {{review.rating}} Star</p>
+                            <p>{{ review.comment}}</p>
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
