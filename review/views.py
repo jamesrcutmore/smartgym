@@ -9,11 +9,11 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from django.urls import reverse
 
+
 @login_required
 def rate(request, id):
     product = Product.objects.get(id=id)
     form = ReviewForm(request.POST or None)
-
 
     if form.is_valid():
         user = request.user
