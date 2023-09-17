@@ -12,6 +12,7 @@ import time
 
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
+
     def __init__(self, request):
         self.request = request
 
@@ -30,7 +31,7 @@ class StripeWH_Handler:
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
-        )        
+        )
 
     def handle_event(self, event):
         """
@@ -39,6 +40,7 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Unhandled webhook received: {event["type"]}',
             status=200)
+
     def handle_payment_intent_succeeded(self, event):
         """
         Handle the payment_intent.succeeded webhook from Stripe
@@ -142,6 +144,7 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
             status=200)
+
     def handle_payment_intent_payment_failed(self, event):
         """
         Handle the payment_intent.payment_failed webhook from Stripe
