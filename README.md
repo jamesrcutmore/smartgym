@@ -141,7 +141,7 @@ A live website can be found [here](https://smartgym1-f1d10f71d6fc.herokuapp.com/
 # **Bag**
 ![Tablet wireframe](media/screenshot-bag-tablet.jpg)
 # **secure-checkout**
-![Tablet wireframe](media/screenshot-secure-checkout-tablet.jpg)
+![Tablet wireframe](media/screenshot-checkout-tablet.jpg)
 # **Profile**
 ![Tablet wireframe](media/screenshot-tablet-profile.jpg)
 
