@@ -76,7 +76,7 @@ A live website can be found [here](https://smartgym1-f1d10f71d6fc.herokuapp.com/
 - Bright  primary colours so to make it easy and fun to navigate.
 
 
-![Coloors Pallete](assets/images/fruitbowl-colours.jpg)
+![Coloors Pallete](media/smartgym-colours.jpg)
 
   
 + **Typography**
@@ -150,13 +150,13 @@ A live website can be found [here](https://smartgym1-f1d10f71d6fc.herokuapp.com/
 # **Wireframe Mobile view**
 
 
-![mobile wireframe](media/.jpg)
-![mobile wireframe](media/.jpg)
-![mobile wireframe](media/.jpg)
-![mobile wireframe](media/.jpg)
-![mobile wireframe](media/.jpg)
-![mobile wireframe](media/.jpg)
-![mobile wireframe](media/.jpg)
+![mobile wireframe](media/screenshot-mobile-home.jpg)
+![mobile wireframe](media/screenshot-products-mobile.jpg)
+![mobile wireframe](media/screenshot-nutrition-mobile.jpg)
+![mobile wireframe](media/screenshot-fitness-mobile.jpg)
+![mobile wireframe](media/screenshot-bag-mobile.jpg)
+![mobile wireframe](media/screenshot-checkout-mobile.jpg)
+![mobile wireframe](media/screenshot-profile-mobile.jpg)
 ---
 ---
 
@@ -169,7 +169,7 @@ A live website can be found [here](https://smartgym1-f1d10f71d6fc.herokuapp.com/
 
 - You can press the home page link at any time fron any page.
 
-- You can login and edit and also add new recipes.
+- You can login and edit products.
 
 - You can register from the login page.
 
@@ -318,36 +318,6 @@ Users can access the all products page and view everything, by price ,catogory o
 ---
 + Solved bug, (typo in code, found in app.py)
 
-![Known fixed bugs](assets/images/known-fixedbug.jpg)
-
-
-
-# Lighthouse performance
-
-+ ## Desktop Home screen
- ![Desktop performance](assets/images/smoothie-desktoplh-home.jpg)
-+ # Desktop Recipes 
- ![Desktop performance](assets/images/smoothie-desktoplh-recipes.jpg)
-+ # Desktop Login
- ![Desktop performance](assets/images/smoothie-desktoplh-login.jpg)
- + # Desktop Dashboard
- ![Desktop performance](assets/images/smoothie-desktoplh-dashboard.jpg)
- + # Desktop Sign up
- ![Desktop performance](assets/images/smoothie-desktoplh-signup.jpg)
- + # Desktop Edit page
- ![Desktop performance](assets/images/smoothie-desktoplh-edit.jpg)
-+ # Mobile view Home screen
- ![Mobile performance Home](assets/images/smoothie-homelh.jpg)
-+ # Mobile view Recipes  Page
- ![Mobile performance recipes page](assets/images/smoothie-recipeslh.jpg)
-+ # Mobile view login page
- ![Mobile performance login page](assets/images/smoothie-loginlh.jpg)
-+ # Mobile view Dashboard  page
- ![Mobile perfomance dashboard](assets/images/smoothie-dashboardlh.jpg)
-+ # Mobile view Sign up page
- ![Mobile performance signup](assets/images/smoothie-signuplh.jpg)
-+ # Mobile view Edit page
- ![Mobile performance edit page](assets/images/smoothie-editlh.jpg)
 
  ## Deployment & Local Development
 
